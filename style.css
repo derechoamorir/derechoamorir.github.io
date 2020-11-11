@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: 0 0 0;
+}
+
+.inv {
+  display: none;
+}
+
+#background {
+  background: #fff;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1rem;
+  align-content: center;
+  justify-content: center;
+  color: rgb(179, 15, 29);
+  width: 100%;
+  max-height: 8rem;
+  padding: 2rem;
+  background: rgb(253, 253, 253);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+#logo {
+  grid-column: 1/2;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  align-self: center;
+  border-right: 1px dotted rgb(100, 100, 100);
+  min-width: 180px;
+}
+
+#menu {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 1rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  align-self: center;
+}
+
+#content {
+  background: white;
+  padding: 4rem 2rem;
+  max-width: 1140px;
+  margin: 8px auto;
+  min-height: 65vh;
+}
+
+#manifiesto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 16rem;
+}
+
+#manifiesto p {
+  margin-bottom: 1.5rem;
+  color: #111;
+  font-size: 1.34rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+#manifiesto ul,
+#firmantes ol {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+#firmantes {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  columns: 3;
+}
+
+#firmantes li {
+  margin-bottom: 1rem;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+#firma {
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#firma p {
+  margin-bottom: 1.5rem;
+}
+
+#firma li {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#manifiestoLink,
+#firmantesLink,
+#firmaLink {
+  cursor: pointer;
+}
+
+#manifiestoLink {
+  grid-column: 2/3;
+}
+
+#firmantesLink {
+  grid-column: 3/4;
+}
+
+#firmaLink {
+  grid-column: 4/5;
+}
+
+#footer {
+  width: 100%;
+  background: rgb(240, 240, 240);
+  height: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  /* background: #ccc; */
+  color: #333;
+}
+
+a:hover {
+  border-bottom: 1px dashed rgb(179, 15, 29);
+}
+
+.firmantes {
+  list-style: none;
+}
+
+.lower {
+  color: rgb(100, 100, 100);
+  font-size: 0.85em;
+}
+
+.job {
+  font-weight: 400;
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: block;
+}
+
+.iniciativa {
+  align-self: center;
+  padding: 0 2rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+}
+
+.logo-dmd {
+  padding: 0 1rem;
+  grid-column: 2/3;
+
+}
+
+.logo-dmd img {
+  height: 8rem;
+}
+
+.itemFormulario {
+  width: 100%;
+  font-size: 1.5rem;
+  display: block;
+  margin: 1rem 0;
+  border: 1px solid gray;
+  padding: 1rem;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.buttonFormulario {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  color: #333;
+}
+
+.success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  width: 100%;
+  margin: 2rem 0 4rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  transition: opacity 1s;
+}
+
+.logo a {
+  color: rgb(179, 15, 29);
+}
+
+.logo a:hover {
+  border-bottom: none;
+}
+
+#Iframe-Liason-Sheet {
+  max-width: 760px;
+  max-height: 1200px;
+  overflow: hidden;
+}
+
+/* inner wrapper: make responsive */
+.responsive-wrapper {
+  position: relative;
+  height: 0;
+  /* gets height from padding-bottom setting */
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+
+.responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* padding-bottom = h/w as a % */
+.responsive-wrapper-wxh-760x1200 {
+  padding-bottom: 363.6364%;
+}
+
+.iframe-border {
+  border: 1px solid white;
+}
+
+.center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media (max-width: 768px) {
+  #header {
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 0 16px;
+  }
+
+  #menu {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+  #logo {
+    padding-right: 1rem;
+  }
+
+  #manifiesto {
+    font-size: 1rem;
+  }
+
+  #firmantes {
+    font-size: 1rem;
+    columns: 1;
+  }
+
+  #manifiestoLink,
+  #firmantesLink,
+  #firmaLink {
+    grid-column: 1/2;
+  }
+
+  #content {
+    padding: 2rem 1.2rem;
+    margin: 8px auto;
+  }
+
+}
