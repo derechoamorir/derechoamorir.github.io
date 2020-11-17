@@ -9,7 +9,7 @@ function showManifiesto() {
   manifiesto.classList.remove("inv");
   firmantes.classList.add("inv");
   firma.classList.add("inv");
-  window.history.pushState("", "Manifiesto de juristas por la eutanasia", "");
+  window.history.pushState("", "Manifiesto de juristas por la eutanasia", "/");
 }
 
 function showFirmantes() {
