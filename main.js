@@ -1,6 +1,9 @@
 const manifiestoLink = document.getElementById("manifiestoLink");
 const firmantesLink = document.getElementById("firmantesLink");
 const firmaLink = document.getElementById("firmaLink");
+const firm = document.getElementById("firmantes");
+const numTotal = firm.querySelectorAll("li");
+const num = document.getElementById("num");
 
 function showManifiesto() {
   const manifiesto = document.getElementById("manifiesto");
@@ -35,6 +38,9 @@ function showFirma() {
 manifiestoLink.addEventListener("click", showManifiesto, false);
 firmantesLink.addEventListener("click", showFirmantes, false);
 firmaLink.addEventListener("click", showFirma, false);
+
+num.innerText(`${num}`);
+
 
 // window.addEventListener("load", function () {
 //   const form = document.getElementById("formulario");

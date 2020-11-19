@@ -17,6 +17,10 @@
   margin: 0 auto;
 }
 
+nav {
+  display: grid;
+}
+
 #header {
   display: grid;
   grid-template-columns: 1fr 3fr;
