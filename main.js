@@ -39,7 +39,8 @@ manifiestoLink.addEventListener("click", showManifiesto, false);
 firmantesLink.addEventListener("click", showFirmantes, false);
 firmaLink.addEventListener("click", showFirma, false);
 
-// numFirmantes.innerText = numTotal;
+console.log(numTotal)
+numFirmantes.innerText = numTotal;
 
 // window.addEventListener("load", function () {
 //   const form = document.getElementById("formulario");
