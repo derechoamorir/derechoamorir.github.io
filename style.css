@@ -80,7 +80,7 @@ nav {
 }
 
 #manifiesto ul,
-#firmantes ol {
+#firmantes ul {
   margin-left: 2rem;
   margin-bottom: 2rem;
 }
@@ -89,6 +89,9 @@ nav {
   font-size: 1.2rem;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
+}
+
+#firmantes ul {
   columns: 3;
 }
 
@@ -281,7 +284,8 @@ a:hover {
     font-size: 1rem;
   }
 
-  #firmantes {
+  #firmantes,
+  #firmantes ul {
     font-size: 1rem;
     columns: 1;
   }
