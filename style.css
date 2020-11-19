@@ -318,4 +318,7 @@ a:hover {
     border-bottom: none;
   }
 
+  .amount {
+    text-align: left;
+  }
 }
