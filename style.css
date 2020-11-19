@@ -315,6 +315,7 @@ a:hover {
 
   #firmantes li {
     height: auto;
+    border-bottom: none;
   }
 
 }
