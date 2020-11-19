@@ -39,7 +39,7 @@ manifiestoLink.addEventListener("click", showManifiesto, false);
 firmantesLink.addEventListener("click", showFirmantes, false);
 firmaLink.addEventListener("click", showFirma, false);
 
-num.innerText(`${num}`);
+numFirmantes.innerText(`${numTotal}`);
 
 
 // window.addEventListener("load", function () {
