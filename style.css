@@ -225,6 +225,10 @@ a:hover {
   border-bottom: none;
 }
 
+.amount {
+  visibility: hidden;
+}
+
 #Iframe-Liason-Sheet {
   max-width: 760px;
   max-height: 1200px;
