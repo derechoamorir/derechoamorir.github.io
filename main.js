@@ -2,7 +2,7 @@ const manifiestoLink = document.getElementById("manifiestoLink");
 const firmantesLink = document.getElementById("firmantesLink");
 const firmaLink = document.getElementById("firmaLink");
 const firm = document.getElementById("firmantes");
-const numTotal = firm.querySelectorAll("li");
+const numTotal = firm.querySelectorAll("li").length;
 const numFirmantes = document.getElementById("numFirmantes");
 
 function showManifiesto() {
