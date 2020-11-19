@@ -226,7 +226,11 @@ a:hover {
 }
 
 .amount {
-  visibility: hidden;
+  margin: 0 0 2rem;
+  text-align: right;
+  font-size: 2rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: lightgray;
 }
 
 #Iframe-Liason-Sheet {
